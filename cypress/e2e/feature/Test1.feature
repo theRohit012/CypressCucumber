@@ -2,7 +2,7 @@ Feature: Test Script
 
     Created a script for demo
 
-    Scenario Outline: Scenario for testing a scenario
+    Scenario Outline: Scenario for testing a login
         Given I am opening a URL
         When I am entering the "standard_user" into "input#user-name"
         And I am entering the "secret_sauce" into "input#password"

@@ -6,7 +6,8 @@ When("I click on a {string}", (element) => {
     cy.get(element).click()
 })
 
-When("i click on {string} element inside the {string}", (childLocator, parentLocator) => {
+When("I click on {string} element inside the {string}", (childLocator, parentLocator) => {
     cy.get(parentLocator).find(childLocator).click()
 })
+
 
