@@ -17,8 +17,8 @@ async function setupNodeEvents(on, config) {
 
 module.exports = defineConfig({
   e2e: {
-    specPattern: "cypress/e2e/feature/*.feature",
-    baseUrl: "https://www.saucedemo.com/",
+    specPattern: "cypress/e2e/features/**.feature",
+    baseUrl: "https://rahulshettyacademy.com/seleniumPractise/#/",
     setupNodeEvents,
   },
 })

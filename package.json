@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
-    "cypress": "^13.16.0",
+    "cypress": "^13.16.1",
     "esbuild": "^0.24.0"
   },
   "dependencies": {
