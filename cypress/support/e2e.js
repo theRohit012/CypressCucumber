@@ -1,4 +1,3 @@
-require('cypress');
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
@@ -15,14 +14,10 @@ require('cypress');
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-Cypress.on('uncaught:exception', (err, runnable, promise) => {
-    return false
-})
 
 beforeEach(()=> {
     cy.visit('/');

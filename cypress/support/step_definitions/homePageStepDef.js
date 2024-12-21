@@ -1,4 +1,4 @@
-import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor/steps";
 import HomePage from "../../pageObjects/homePageObject";
 
 const homepage = new HomePage();
